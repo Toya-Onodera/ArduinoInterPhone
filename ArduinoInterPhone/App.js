@@ -29,6 +29,7 @@ import Styles from './components/style/StyleSheets'
 
 type Props = {};
 export default class App extends Component<Props> {
+  
   render() {
     return (
       <Router>

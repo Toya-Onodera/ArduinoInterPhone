@@ -11,6 +11,10 @@ import Styles from './style/StyleSheets'
 
 type Props = {};
 export default class App extends Component<Props> {
+  constructor(props) {
+    super(props)
+  }
+
   render() {
     return (
       <View style={Styles.container}>
